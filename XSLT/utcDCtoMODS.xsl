@@ -229,6 +229,17 @@
                             </location>
                         </relatedItem>
                     </xsl:when>
+                    <xsl:when test="contains(normalize-space(.), 'Cold War Oral Histories')">
+                        <relatedItem type='host' displayLabel='Project'>
+                            <titleInfo>
+                                <title><xsl:value-of select="normalize-space(.)"/></title>
+                            </titleInfo>
+                            <abstract>The Cold War Oral Histories digital collection features interviews that document the history of the Cold War in the United States and abroad.</abstract>
+                            <location>
+                                <url>http://cdm16877.contentdm.oclc.org/cdm/landingpage/collection/p16877coll22</url>
+                            </location>
+                        </relatedItem>
+                    </xsl:when>
                     <xsl:when test="contains(normalize-space(.), 'George Connor Speeches')">
                         <relatedItem type='host' displayLabel='Project'>
                             <titleInfo>
@@ -289,18 +300,18 @@
                             <titleInfo>
                                 <title><xsl:value-of select="normalize-space(.)"/></title>
                             </titleInfo>
-                            <abstract>The Cyrus Griffin Martin World War I diares and correspondence digital collection contains Martin's correspondence, military records, financial records, and notepads created during his service as a Second Lieutenant in the American Expeditionary Forces during World War I. The contents of the collection date from 1917 to 1919.</abstract>
+                            <abstract>The Cyrus Griffin Martin World War I diaries and correspondence digital collection contains Martin's correspondence, military records, financial records, and notepads created during his service as a Second Lieutenant in the American Expeditionary Forces during World War I. The contents of the collection date from 1917 to 1919.</abstract>
                             <location>
                                 <url>http://cdm16877.contentdm.oclc.org/cdm/landingpage/collection/p16877coll19</url>
                             </location>
                         </relatedItem>
                     </xsl:when>
-                    <xsl:when test="contains(normalize-space(.), 'Emma Bell Miles Southern Appalachia Art and Correspondence')">
+                    <xsl:when test="contains(normalize-space(.), 'Emma Bell Miles Southern Appalachia Art, Correspondence, and Journals')">
                         <relatedItem type='host' displayLabel='Project'>
                             <titleInfo>
                                 <title><xsl:value-of select="normalize-space(.)"/></title>
                             </titleInfo>
-                            <abstract>The Emma Bell Miles southern Appalachia art and correspondence digital collection contains correspondence among members and friends of writer and artist Emma Bell Miles’ family of origin illustrating the personal roots of themes Emma lived out and developed in her work. The heart of the collection is a series of letters written during 1901-1903 concerning Emma’s troubled relationship with her parents, her life as a young woman, and her life as an emerging artist and naturalist; as well as the death of her mother, Emma’s marriage to Frank Miles soon thereafter, and disposition of Bell family property in Walden Ridge, Tennessee. The collection also features numerous examples of Emma's art, including watercolors, oil paintings, and sketches.</abstract>
+                            <abstract>The Emma Bell Miles Southern Appalachia art, correspondence, and journals digital collection contains correspondence among family members and friends of writer and artist Emma Bell Miles, illustrating the personal roots of themes Emma developed in her work. The heart of the collection is four diaries authored by Emma from 1908 to 1915. These diaries detail the life of an early 20th century woman living in the mountains surrounding Chattanooga, Tennessee.</abstract>
                             <location>
                                 <url>http://cdm16877.contentdm.oclc.org/cdm/landingpage/collection/p16877coll6</url>
                             </location>
