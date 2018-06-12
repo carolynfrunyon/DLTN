@@ -284,6 +284,17 @@
                             </location>
                         </relatedItem>
                     </xsl:when>
+                    <xsl:when test="contains(normalize-space(.), 'Herman Lamb 20th Century Chattanooga Photographs')">
+                        <relatedItem type='host' displayLabel='Project'>
+                            <titleInfo>
+                                <title><xsl:value-of select="normalize-space(.)"/></title>
+                            </titleInfo>
+                            <abstract>The Herman Lamb 20th Century Chattanooga Photographs digital collection includes images of Chattanooga, Tennessee taken by a local photographer. The collection includes prints, negatives, and slides depicting scenes of downtown Chattanooga and the surrounding neighboorhoods, as well as the greater metropolitan area, including Lookout and Signal Mountains. Lamb's impressive collection ranges from 1920 to 1970s and covers important events in Chattanooga's history, such as President Franklin Delano Roosevelt's visit to the city in 1940.</abstract>
+                            <location>
+                                <url>http://cdm16877.contentdm.oclc.org/cdm/landingpage/collection/p16877coll23</url>
+                            </location>
+                        </relatedItem>
+                    </xsl:when>
                     <xsl:when test="contains(normalize-space(.), 'Cyrus Griffin Martin World War I Diaries and Military Records')">
                         <relatedItem type='host' displayLabel='Project'>
                             <titleInfo>
@@ -316,6 +327,28 @@
                                 <url>http://cdm16877.contentdm.oclc.org/cdm/landingpage/collection/p16877coll5</url>
                             </location>
                         </relatedItem>
+                    </xsl:when>
+                    <xsl:when test="contains(normalize-space(.), 'University of Chattanooga Board of Trustees Minutes')">
+                            <relatedItem type='host' displayLabel='Project'>
+                                <titleInfo>
+                                    <title><xsl:value-of select="normalize-space(.)"/></title>
+                                </titleInfo>
+                                <abstract>The University of Chattanooga Board of Trustees Minutes digital collection features recorded notes of proceedings held by the Board of Trustees for the University of Chattanooga from 1905 to 1969. In addition to the minutes themselves, numerous other documents are appended to or inserted in the meeting records including agendas, lists, commencement programs, reports, resolutions, statements, and executive summaries. Cumulatively, the records in this collection provide invaluable insights into high-level administrative decisions at the university with respect to campus construction, curriculum development, fundraising, financial planning, admissions policies, enrollment, and more.</abstract>
+                                <location>
+                                    <url>http://cdm16877.contentdm.oclc.org/cdm/landingpage/collection/p16877coll25</url>
+                                </location>
+                            </relatedItem>
+                    </xsl:when>
+                    <xsl:when test="contains(normalize-space(.), 'University of Tennessee at Chattanooga Commencement Programs')">
+                            <relatedItem type='host' displayLabel='Project'>
+                                <titleInfo>
+                                    <title><xsl:value-of select="normalize-space(.)"/></title>
+                                </titleInfo>
+                                <abstract>The University of Tennessee at Chattanooga Commencement Programs digital collection features programs from commencement ceremonies ranging from 1887 to the present. During these ceremonies, candidates for graduation have their degrees formally conferred to them by the University.</abstract>
+                                <location>
+                                    <url>http://cdm16877.contentdm.oclc.org/cdm/landingpage/collection/p16877coll24</url>
+                                </location>
+                            </relatedItem>
                     </xsl:when>
                     <xsl:when test="contains(normalize-space(.), 'University of Tennessee at Chattanooga Course Catalogs')">
                             <relatedItem type='host' displayLabel='Project'>
